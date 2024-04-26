@@ -1,0 +1,6 @@
+room_id,price,numofday,numofbed,isavailable,furniture,numofunit
+1,100,3,2,t,Sofa,1
+2,150,5,3,f,Bed,2
+3,80,2,1,t,Chair,1
+4,120,4,2,t,Table,1
+5,200,7,4,f,Wardrobe,3
