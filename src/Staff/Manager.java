@@ -3,7 +3,7 @@ import Service.Service;
 import Utility.*;
 import main.Hotel;
 import java.sql.*;
-import java.util.ArrayList;
+
 public class Manager extends Employee {
     
 
@@ -40,6 +40,29 @@ public class Manager extends Employee {
     
 }
 
+}
+public void addService(Service service){
+    // Add service to database
+    Connection connection = null;
+    try {
+        connection = DatabaseUtil.openConnection();
+        String query = "INSERT INTO services ( name, price) VALUES (?, ?);";
+        java.sql.PreparedStatement preparedStatement = connection.prepareStatement(query);
+        preparedStatement.setString(1, service.getName());
+        preparedStatement.setDouble(2, service.getPrice());
+        preparedStatement.executeUpdate();
+        System.out.println("Service added successfully");
+        Hotel.getServices().add(service);
+} catch (java.sql.SQLException e) {
+    e.printStackTrace();
+} finally {
+    try {
+        connection.close();
+    } catch (java.sql.SQLException e) {
+        e.printStackTrace();
+
+}  
+}
 }
     public static void main (String[] args){
         Manager manager = new Manager();

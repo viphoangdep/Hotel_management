@@ -127,7 +127,7 @@ public class Customer extends Person{
         // Tạo một đối tượng Service, Lấy dữ liệu từ database Service
         
         
-        Service service = new Service(1, "Service 1");
+        Service service = new Service(1, "Service 1",200);
         
         // Gọi phương thức bookRoom
         customer.bookRoom(room);

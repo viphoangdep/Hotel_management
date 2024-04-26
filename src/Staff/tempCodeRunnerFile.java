@@ -1,3 +1,0 @@
-public Manager() {
-        super();
-    }
