@@ -1,0 +1,4 @@
+room_id,price,numofday,numofbed,isavailable,electric_devices,numofunit
+2,200,5,3,f,"TV, Fridge, Microwave",2
+3,100,2,1,t,Fan,1
+1,150,3,2,f,"TV, AC",1

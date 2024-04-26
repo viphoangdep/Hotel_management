@@ -1,0 +1,6 @@
+id,name,price,numofday,numofbed,isavailable,havingshower
+1,Standard Room 1,50,1,1,t,t
+2,Standard Room 2,50,1,1,t,t
+3,Standard Room 3,50,1,1,t,t
+4,Standard Room 4,50,1,1,f,t
+5,Standard Room 5,50,1,1,t,f

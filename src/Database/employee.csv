@@ -1,0 +1,6 @@
+id,name,gender,phone,status,task,unit_task,salary,job
+1,John Doe,t,123456789,t,"{Task1,Task2}",1,50000,Chef
+2,Jane Smith,f,987654321,f,"{Task3,Task4}",2,60000,Manager
+3,Alice Johnson,t,555555555,t,"{Task5,Task6}",1,55000,Receptionist
+4,Bob Brown,t,777777777,t,"{Task7,Task8}",2,52000,Driver
+5,Eve White,f,999999999,f,"{Task9,Task10}",1,58000,Chef
