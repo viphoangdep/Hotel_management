@@ -53,6 +53,11 @@ public class Employee extends Person{
     public void setTask(Service task) {
         this.task = task;
     }
-    
+    @Override
+    public String toString() {
+        System.out.println(this.getName() + " " + job + " " + salary + " " + status + " " + task + " " + unitTasks);
+        return "Employee [job=" + job + ", salary=" + salary + ", status=" + status + ", task=" + task + ", unitTasks="
+                + unitTasks + "]";
+    }
 
 }
